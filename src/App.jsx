@@ -7,7 +7,7 @@ function App() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        const response = await fetch('https://eager-battledress-yak.cyclic.app/ask', {
+        const response = await fetch('/ask', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
